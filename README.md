@@ -1,0 +1,1 @@
+Test application using angular2, and comparing angular-cli to gulp
