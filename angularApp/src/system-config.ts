@@ -7,11 +7,38 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  '@angular2-material' : 'vendor/@angular2-material'
 };
 
 /** User packages configuration. */
 const packages: any = {
-};
+  '@angular2-material/core': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'core.js'
+  },
+  '@angular2-material/button': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'button.js'
+  },
+  '@angular2-material/input': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'input.js'
+  },
+  '@angular2-material/toolbar': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'toolbar.js'
+  },
+  '@angular2-material/grid-list': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'grid-list.js'
+  }
+
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 /***********************************************************************************************
@@ -34,6 +61,12 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/material-test',
+  'app/home',
+  'app/splash',
+  'app/toolbar',
+  'app/home-test',
+  'app/skill-grid',
   /** @cli-barrel */
 ];
 
