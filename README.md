@@ -11,5 +11,12 @@ Branch angularCli
  
 Branch angularGulp
  - git fetch origin angularGulp:angularGulp
+ - git checkout angularGulp
+ - npm install
+ - npm start
+
+Branch angularLib
+ - git fetch origin angularLib:angularLib
+ - git checkout angularLib
  - npm install
  - npm start
