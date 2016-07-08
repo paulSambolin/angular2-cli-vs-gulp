@@ -1,4 +1,5 @@
 Test application using angular2, and comparing angular-cli to gulp
+Files from separate branches may become interweaved
 
 git clone https://github.com/paulSambolin/angular2-cli-vs-gulp.git
 
