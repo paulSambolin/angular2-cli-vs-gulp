@@ -10,11 +10,12 @@ Branch angularCli
  - ng serve
  - Possibility of npm warning about @angular/*-rc.4
  
-Branch angularGulp
- - git fetch origin angularGulp:angularGulp
- - git checkout angularGulp
+Branch testGulp
+ - git fetch origin testGulp:testGulp
+ - git checkout testGulp
  - npm install
- - npm start
+ - npm run build
+ - npm run start
 
 Branch angularLib
  - git fetch origin angularLib:angularLib
