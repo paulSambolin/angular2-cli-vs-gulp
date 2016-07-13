@@ -17,7 +17,7 @@ Branch angularGulp
  - npm run build
  - npm run start
  
-Branch angularNPM
+Branch angularNPM (typings issues on windows)
  - git fetch origin angualrNPM:angularNPM
  - get checkout angularNPM
  - npm install
