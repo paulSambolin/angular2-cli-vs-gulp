@@ -1,13 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
-import { MdButton, MdAnchor } from '@angular2-material/button';
-import { MdInput } from '@angular2-material/input';
-import {MD_TOOLBAR_DIRECTIVES} from '@angular2-material/toolbar';
 
 @Component({
   moduleId: module.id,
   selector: 'app-toolbar',
-  directives: [ROUTER_DIRECTIVES, MdButton, MdInput, MdAnchor, MD_TOOLBAR_DIRECTIVES],
+  directives: [ROUTER_DIRECTIVES],
   templateUrl: 'toolbar.component.html',
   styleUrls: ['toolbar.component.css']
 })
